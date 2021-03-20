@@ -13,5 +13,5 @@ export default function Home() {
         <h3>Your one-stop shop for the latest news articles.</h3>
       </div>
     </div>
-  )
+  );
 }
