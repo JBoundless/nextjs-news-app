@@ -26,10 +26,10 @@ export const getServerSideProps = async pageContext => {
       );
       const employee = await apiResponse.json();
 
-      return{
+      return {
           props: {
               employee
-          }
+          },
       };
 };
 
